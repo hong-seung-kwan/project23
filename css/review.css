@@ -1,0 +1,97 @@
+body {
+  height: 100%;
+}
+header{
+  height: 134px;
+}
+main {
+  margin-top: 20px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+}
+header a {
+  color: black;
+  text-decoration-line: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+#header:hover {
+  background-color: white; 
+}
+#header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  font-weight: bold;
+}
+#header_1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 74px;
+  justify-content: center;
+  align-items: center;
+}
+
+#header_1> :nth-child(1) {
+  position: absolute;
+  left: 20px;
+}
+
+#header_1> :nth-child(2) {
+  position: absolute;
+  left: 48%;
+}
+
+#header_1> :nth-child(3) {
+  position: absolute;
+  right: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+.ul_1,
+.ul_2 {
+  font-size: 12px;
+}
+#header_2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.q {
+  width: 64px;
+}
+
+section button {
+  position: absolute;
+  right: 260px;
+}
+.button1 {
+  background-color: white;
+}
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+#list {
+  width: 1000px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.list li {
+  border-top: 1px solid;
+}
+.bot {
+  border-bottom: 1px solid;
+}
+.text1 {
+  font-family: 'Roboto', 'Noto Sans KR', Arial, Helvetica, sans-serif;
+}
