@@ -5,10 +5,14 @@ header{
   height: 134px;
 }
 main {
+  width: 100%;
   margin-top: 20px;
   height: 650px;
   display: flex;
   justify-content: center;
+}
+section{
+  width: 100%;
 }
 header a {
   color: black;
@@ -41,10 +45,10 @@ ul {
   left: 20px;
 }
 
-#header_1> :nth-child(2) {
+/* #header_1> :nth-child(2) {
   position: absolute;
   left: 48%;
-}
+} */
 
 #header_1> :nth-child(3) {
   position: absolute;
@@ -64,7 +68,15 @@ li {
   display: flex;
   justify-content: center;
 }
-.login {
+/* section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+ .login {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

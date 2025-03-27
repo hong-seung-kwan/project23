@@ -44,10 +44,10 @@ ul {
   left: 20px;
 }
 
-#header_1> :nth-child(2) {
+/* #header_1> :nth-child(2) {
   position: absolute;
-  left: 47%;
-}
+  left: 48%;
+} */
 
 #header_1> :nth-child(3) {
   position: absolute;
